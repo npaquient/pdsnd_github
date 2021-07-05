@@ -10,7 +10,7 @@ pdsnd_github
 Udacity training project
 
 ### Files used
-[200~Project_Python_v1.py using data from chicago.csv, new_york.csv and washington.csv
+Project_Python_v1.py using data from chicago.csv, new_york.csv and washington.csv
 
 ### Credits
 

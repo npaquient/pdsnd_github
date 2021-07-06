@@ -30,3 +30,4 @@ This project makes use of Python to explore data related to bike share systems f
 https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project  
 https://github.com/igorantun/node-chat  
 https://stackoverflow.com/  
+https://github.community/  

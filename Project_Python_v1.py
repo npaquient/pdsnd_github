@@ -14,8 +14,7 @@ day_week = ['all', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Satu
 
 def input_user():
     """
-    Use user input to define city, month and day variables
-    All variables set to lowercase to compare with list in lowercase as well
+    City, month and day variables defined bu users
     Returns:
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
@@ -102,7 +101,7 @@ def load_data(city, month, day):
     return df
 
 def statistic(df):
-    """    
+    """
     :param df generated in load_data
     :Output:
     #1 Popular times of travel

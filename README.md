@@ -13,7 +13,7 @@ pdsnd_github
 05/07/2021
 
 ### Description
-Udacity training project
+This project makes use of Python to explore data related to bike share systems for three major cities in the United States: Chicago, New York City, and Washington. It imports the data and answers interesting questions about it by computing descriptive statistics. If requested by the user raw data can be displayed. An interactive experience will be displayed in the terminal to present these statistics.
 
 ### Technologies
 

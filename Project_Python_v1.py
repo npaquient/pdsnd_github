@@ -102,7 +102,7 @@ def load_data(city, month, day):
     return df
 
 def statistic(df):
-    """    
+    """
     :param df generated in load_data
     :Output:
     #1 Popular times of travel
@@ -210,11 +210,10 @@ def display_raw_data(df):
 def main():
     while True:
         city, month, day = input_user()
-        start = time.time()
+        start_time = time.time()
         df = load_data(city, month, day)
         statistic(df)
-        end = time.time()
-        print('\nThe runtime of the program is {:.4f} s\n'.format(end - start))
+        print('\nThe runtime of the program is {:.4f} s\n'.format(time.time() - start_time))
         display_raw_data(df)
         again = input("\nDo you wish to start with a new selection? (yes/no) ")
         if 'yes' in again:

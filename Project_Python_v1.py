@@ -209,12 +209,10 @@ def display_raw_data(df):
 def main():
     while True:
         city, month, day = input_user()
-        start = time.time()
-        df = load_data(city, month, day)
-        statistic(df)
-        end = time.time()
-        print('\nThe runtime of the program is {:.4f} s\n'.format(end - start))
-        display_raw_data(df)
+        start_time = time.time()
+        statistic(load_data(city, month, day))
+        print('\nThe runtime of the program is {:.4f} s\n'.format(time.time() - start_time))
+        display_raw_data(load_data(city, month, day))
         again = input("\nDo you wish to start with a new selection? (yes/no) ")
         if 'yes' in again:
               clear()
